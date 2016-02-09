@@ -9,7 +9,7 @@
 <p>Implementation should collect, aggregate or perform other actions during visit of objects in the graph, so that at the end of the visit the purpose of operation will be complete.</p>
 <p>Such implementation is push-like: you create operation object and call a method that gets object graph on input and returns operation result on output.</p>
 <p style="direction: ltr">In the past we often dealt with big graphs (usually these are virtual graphs backended at database or at a file system).</p>
-<p>Also having a strong experience in the XSLT we see that the visitor pattern in OOP is directly mapped into <code>xsl:template</code> and <code>xsl:apply-template</code> technique.</p>
+<p>Also having a strong experience in the XSLT we see that the visitor pattern in OOP is directly mapped into <code>xsl:template</code> and <code>xsl:apply-templates</code> technique.</p>
 <p>Another thought was that in XML processing there are two camps:</p>
 <ul>
   <li>SAX (push-like) - those who process xml in callbacks, which is very similar to visitor pattern; and</li>

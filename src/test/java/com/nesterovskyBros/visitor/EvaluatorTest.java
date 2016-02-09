@@ -47,7 +47,7 @@ public class EvaluatorTest
   {
     Evaluator evaluator = createEvaluator(resolver);
     TraversingVisitor<Void, Exception> traverser = 
-      new TraversingVisitor<>(evaluator); 
+      new TraversingVisitor<>(evaluator, true); 
     
     expression.accept(traverser);
     

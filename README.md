@@ -241,7 +241,7 @@ public class RefExpression implements Expression
   protected Visitor&lt;R> visitor;
   protected boolean traverseFirst;
 }</pre></blockquote>
-<p>And this is pull-like Traverser that know to provides <a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html">Stream</a> over the graph.</p>
+<p>And this is pull-like Traverser that knows to provides <a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html">Stream</a> over the graph.</p>
 <blockquote><pre>public class Traverser implements Visitor&lt;Stream&lt;Expression>>
 {
   public Stream&lt;Expression> stream(Expression expression)
